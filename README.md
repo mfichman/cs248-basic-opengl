@@ -28,5 +28,5 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 
 ### Windows
 
-1. Open the demo/demo.sln, and click Build > Start Debugging
+1. Open demo/demo.sln, and click Build > Start Debugging
 
