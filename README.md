@@ -11,18 +11,18 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 
 1. [Get the binaries](http://www.libsdl.org/release/SDL-1.2.14-win32.zip)
 2. Unzip the file in the demo root directory
-3. Open the VS2008 project, and build
+3. Open the VS2008 project, and build from the menu
 
 ### OS X
 
-1. [Get the disk image for SDL](http://www.libsdl.org/release/SDL-1.2.14.dmg)
+1. [Get the disk image](http://www.libsdl.org/release/SDL-1.2.14.dmg)
 2. Copy SDL.framework to /Library/Frameworks
-3. cd project-folder
+3. cd [demo-folder]
 4. make
 
 ### Linux (Ubuntu or similar)
 
 1. sudo apt-get install libsdl-dev
-2. cd project-folder
+2. cd [demo-folder]
 3. make
 
