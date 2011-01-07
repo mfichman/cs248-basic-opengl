@@ -3,8 +3,8 @@ CS 248 Basic OpenGL Demo
 
 Example of basic OpenGL rendering with SDL. [Download here.](https://github.com/mfichman/cs248-basic-opengl/zipball/master)
 
-SDL Installation
-----------------
+Building/Running the Demo
+------------------------
 To get the demo to work, you have to install the SDL library on your machine.  The myth.stanford.edu machines already have SDL installed, but if you want to use your own machine, then follow the instructions for your platform below.
 
 ### Windows
@@ -18,11 +18,13 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 1. [Get the disk image](http://www.libsdl.org/release/SDL-1.2.14.dmg)
 2. Copy SDL.framework to /Library/Frameworks
 3. cd [demo-folder]
-4. make
+4. ./configure
+5. make
 
 ### Linux (Ubuntu or similar)
 
 1. sudo apt-get install libsdl-dev
 2. cd [demo-folder]
-3. make
+3. ./configure
+4. make
 
