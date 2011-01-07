@@ -1,2 +1,1 @@
-bin_PROGRAMS=main
-main_SOURCES=main.c
+SUBDIRS=src
