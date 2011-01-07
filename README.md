@@ -9,11 +9,12 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 
 ### Windows
 
-1. Get the binaries here: http://www.libsdl.org/release/SDL-1.2.14-win32.zip
+1. [Get the binaries](http://www.libsdl.org/release/SDL-1.2.14-win32.zip)
+2. Unzip the file in the demo root directory
 
 ### OS X
 
-1. Get the disk image for SDL here: http://www.libsdl.org/release/SDL-1.2.14.dmg
+1. [Get the disk image for SDL](http://www.libsdl.org/release/SDL-1.2.14.dmg)
 2. Copy SDL.framework to /Library/Frameworks
 
 ### Linux (Ubuntu or similar)
