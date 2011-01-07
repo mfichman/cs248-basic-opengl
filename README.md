@@ -1,7 +1,8 @@
 CS 248 Basic OpenGL Demo
 ========================
 
-Example of basic OpenGL rendering with SDL.
+Example of basic OpenGL rendering with SDL.  
+[Download here].(https://github.com/mfichman/cs248-basic-opengl/zipball/master)
 
 SDL Installation
 ----------------
