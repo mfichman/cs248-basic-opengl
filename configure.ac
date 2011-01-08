@@ -10,8 +10,8 @@ AC_CHECK_HEADERS([SDL/SDL.h])
 
 AC_CHECK_FILE(/Library/Frameworks/,
   [
-    LDFLAGS+="-framework OpenGL -framework SDL -framework Cocoa"
-    CFLAGS+="-I/Library/Frameworks/SDL.framework/Headers"
+    LDFLAGS+=" -framework OpenGL -framework SDL -framework Cocoa"
+    CFLAGS+=" -I/Library/Frameworks/SDL.framework/Headers"
   ],
   []
 )

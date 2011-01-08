@@ -4492,8 +4492,8 @@ fi
 $as_echo "$ac_cv_file__Library_Frameworks_" >&6; }
 if test "x$ac_cv_file__Library_Frameworks_" = xyes; then :
 
-    LDFLAGS+="-framework OpenGL -framework SDL -framework Cocoa"
-    CFLAGS+="-I/Library/Frameworks/SDL.framework/Headers"
+    LDFLAGS+=" -framework OpenGL -framework SDL -framework Cocoa"
+    CFLAGS+=" -I/Library/Frameworks/SDL.framework/Headers"
 
 fi
 
