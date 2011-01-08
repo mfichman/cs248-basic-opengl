@@ -1,0 +1,169 @@
+Txcode
+v7
+r0
+t316213907.034877
+cCheck dependencies
+cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004ADD32BD0000000000000CA1
+t1256010429
+s3233
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+c000000004ADD32BD0000000000000B32
+t1256010429
+s2866
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/SDL
+c000000004ADD32BD0000000000156068
+t1256010429
+s1400936
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004C5342AB0000000000003430
+t1280524971
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004C44D4240000000000025B59
+t1279579172
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004C44D4240000000000003F84
+t1279579172
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C5342AD000000000000DB14
+t1280524973
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004C4DE4B300000000000027BE
+t1280173235
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Users/Matt/Code/CS248/opengl-basics/common.h
+c000000004D28D0E2000000000000029E
+t1294520546
+s670
+i<windows.h>
+i<GL/gl.h>
+i<SDL/SDL_main.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/gl.h>
+i<GL/glu.h>
+i<SDL/SDL.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c
+c000000004D28D0E200000000000014F0
+t1294520546
+s5360
+i"common.h"
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.h
+c000000004D28D21A0000000000000176
+t1294520858
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m
+c000000004D28D21A0000000000002BC1
+t1294520858
+s11201
+i"SDL/SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode
+t1294521086
+s24280
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o
+t1294521026
+s41960
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
+t1294521026
+s18748
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/xcode.LinkFileList
+c000000004D28D2C100000000000000DB
+t1294521025
+s219
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/main.c
+c000000004D28D21C0000000000000089
+t1294520860
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316213907#316213907#0(0"0(0#1#0"8606188864#0"0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316213825.640540
+e316213826.998960
+r1
+xCompileC
+xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o
+x/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m316213825#316213826#0(0"0(0#0#52"/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m8607613056#1294"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/include -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s316213825.639644
+e316213826.098093
+r1
+xCompileC
+xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
+x/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c316213825#316213826#0(0"0(0#0#52"/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c8607630400#1281"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/include -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode normal x86_64
+s316213886.057376
+e316213886.419840
+r1
+xLd
+x/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode
+xnormal
+xx86_64
+lSLF07#2@65"Link /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode316213886#316213886#0(0"0(0#0#0"8607144544#560"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -filelist /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/xcode.LinkFileList -mmacosx-version-min=10.6 -framework OpenGL -framework SDL -framework Cocoa -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode0#
+

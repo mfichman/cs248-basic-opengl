@@ -1,0 +1,288 @@
+Txcode
+v7
+r0
+t316213827.438587
+cCheck dependencies
+cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004ADD32BD0000000000000CA1
+t1256010429
+s3233
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h
+c000000004ADD32BD0000000000000B32
+t1256010429
+s2866
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/SDL
+c000000004ADD32BD0000000000156068
+t1256010429
+s1400936
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004C44D4240000000000025B59
+t1279579172
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004C44D4240000000000003F84
+t1279579172
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C5342AD000000000000DB14
+t1280524973
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004C4DE4B300000000000027BE
+t1280173235
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Users/Matt/Code/CS248/opengl-basics/common.h
+c000000004D28D0E2000000000000029E
+t1294520546
+s670
+i<windows.h>
+i<GL/gl.h>
+i<SDL/SDL_main.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/gl.h>
+i<GL/glu.h>
+i<SDL/SDL.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c
+c000000004D28D0E200000000000014F0
+t1294520546
+s5360
+i"common.h"
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.h
+c000000004D28D21A0000000000000176
+t1294520858
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m
+c000000004D28D21A0000000000002BC1
+t1294520858
+s11201
+i"SDL/SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode
+t2
+s0
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o
+t1294521026
+s41960
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
+t1294521026
+s18748
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/xcode.LinkFileList
+c000000004D28D2C100000000000000DB
+t1294521025
+s219
+
+N/Users/Matt/Code/CS248/opengl-basics/xcode/main.c
+c000000004D28D21C0000000000000089
+t1294520860
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316213825#316213825#0(0"0(0#1#0"8608631840#0"0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316213825.640540
+e316213826.998960
+r1
+xCompileC
+xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o
+x/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m316213825#316213826#0(0"0(0#0#52"/Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m8607613056#1294"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/include -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/Matt/Code/CS248/opengl-basics/xcode/SDLMain.m -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s316213825.639644
+e316213826.098093
+r1
+xCompileC
+xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
+x/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c316213825#316213826#0(0"0(0#0#52"/Users/Matt/Code/CS248/opengl-basics/xcode/../main.c8607630400#1281"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/include -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/Matt/Code/CS248/opengl-basics/xcode/../main.c -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/Matt/Code/CS248/opengl-basics/xcode/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode normal x86_64
+s316213826.999054
+e316213827.438445
+r0
+xLd
+x/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_OBJC_CLASS_$_NSMenu", referenced from:
+o      objc-class-ref-to-NSMenu in SDLMain.o
+o  "__objc_empty_cache", referenced from:
+o      _OBJC_METACLASS_$_SDLMain in SDLMain.o
+o      _OBJC_CLASS_$_SDLMain in SDLMain.o
+o  "_CFBundleGetMainBundle", referenced from:
+o      _getApplicationName in SDLMain.o
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o  "_CFURLGetFileSystemRepresentation", referenced from:
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o  "_NSApp", referenced from:
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o  "_OBJC_CLASS_$_NSProcessInfo", referenced from:
+o      objc-class-ref-to-NSProcessInfo in SDLMain.o
+o  "_CFURLCreateCopyDeletingLastPathComponent", referenced from:
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o  "_NSAllocateMemoryPages", referenced from:
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o  "___CFConstantStringClassReference", referenced from:
+o      cfstring=CFBundleName in SDLMain.o
+o      cfstring= in SDLMain.o
+o      cfstring=About  in SDLMain.o
+o      cfstring=Hide  in SDLMain.o
+o      cfstring=h in SDLMain.o
+o      cfstring=Hide Others in SDLMain.o
+o      cfstring=Show All in SDLMain.o
+o      cfstring=Quit  in SDLMain.o
+o      cfstring=q in SDLMain.o
+o      cfstring=Window in SDLMain.o
+o      cfstring=m in SDLMain.o
+o      cfstring=Minimize in SDLMain.o
+o  "_OBJC_CLASS_$_NSAutoreleasePool", referenced from:
+o      objc-class-ref-to-NSAutoreleasePool in SDLMain.o
+o  "_CPSEnableForegroundOperation", referenced from:
+o      _CustomApplicationMain in SDLMain.o
+o  "_CPSGetCurrentProcess", referenced from:
+o      _CustomApplicationMain in SDLMain.o
+o  "_CFBundleCopyBundleURL", referenced from:
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o  "_NSDeallocateMemoryPages", referenced from:
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o  "_OBJC_CLASS_$_NSApplication", referenced from:
+o      l_OBJC_$_CATEGORY_NSApplication_$_SDLApplication in SDLMain.o
+o      objc-class-ref-to-NSApplication in SDLMain.o
+o  "_CPSSetFrontProcess", referenced from:
+o      _CustomApplicationMain in SDLMain.o
+o  "_OBJC_CLASS_$_NSString", referenced from:
+o      l_OBJC_$_CATEGORY_NSString_$_ReplaceSubString in SDLMain.o
+o      objc-class-ref-to-NSString in SDLMain.o
+o  "_OBJC_CLASS_$_NSObject", referenced from:
+o      _OBJC_CLASS_$_SDLMain in SDLMain.o
+o  "_CFBundleGetInfoDictionary", referenced from:
+o      _getApplicationName in SDLMain.o
+o  "_CFRelease", referenced from:
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o      -[SDLMain setupWorkingDirectory:] in SDLMain.o
+o  "__objc_empty_vtable", referenced from:
+o      _OBJC_METACLASS_$_SDLMain in SDLMain.o
+o      _OBJC_CLASS_$_SDLMain in SDLMain.o
+o  "_OBJC_CLASS_$_NSMenuItem", referenced from:
+o      objc-class-ref-to-NSMenuItem in SDLMain.o
+o  "_objc_msgSend", referenced from:
+o      _getApplicationName in SDLMain.o
+o      _getApplicationName in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setApplicationMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _setupWindowMenu in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      _CustomApplicationMain in SDLMain.o
+o      -[SDLMain application:openFile:] in SDLMain.o
+o      -[SDLMain applicationDidFinishLaunching:] in SDLMain.o
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o
+o     (maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )
+o  "_OBJC_METACLASS_$_NSObject", referenced from:
+o      _OBJC_METACLASS_$_SDLMain in SDLMain.o
+o      _OBJC_METACLASS_$_SDLMain in SDLMain.o
+o  "_objc_msgSend_fixup", referenced from:
+o      l_objc_msgSend_fixup_objectForKey_ in SDLMain.o
+o      l_objc_msgSend_fixup_length in SDLMain.o
+o      l_objc_msgSend_fixup_alloc in SDLMain.o
+o      l_objc_msgSend_fixup_release in SDLMain.o
+o     (maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@65"Link /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode316213826#316213827#0(5688"Undefined symbols:  "_OBJC_CLASS_$_NSMenu", referenced from:      objc-class-ref-to-NSMenu in SDLMain.o  "__objc_empty_cache", referenced from:      _OBJC_METACLASS_$_SDLMain in SDLMain.o      _OBJC_CLASS_$_SDLMain in SDLMain.o  "_CFBundleGetMainBundle", referenced from:      _getApplicationName in SDLMain.o      -[SDLMain setupWorkingDirectory:] in SDLMain.o  "_CFURLGetFileSystemRepresentation", referenced from:      -[SDLMain setupWorkingDirectory:] in SDLMain.o  "_NSApp", referenced from:      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o  "_OBJC_CLASS_$_NSProcessInfo", referenced from:      objc-class-ref-to-NSProcessInfo in SDLMain.o  "_CFURLCreateCopyDeletingLastPathComponent", referenced from:      -[SDLMain setupWorkingDirectory:] in SDLMain.o  "_NSAllocateMemoryPages", referenced from:      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o  "___CFConstantStringClassReference", referenced from:      cfstring=CFBundleName in SDLMain.o      cfstring= in SDLMain.o      cfstring=About  in SDLMain.o      cfstring=Hide  in SDLMain.o      cfstring=h in SDLMain.o      cfstring=Hide Others in SDLMain.o      cfstring=Show All in SDLMain.o      cfstring=Quit  in SDLMain.o      cfstring=q in SDLMain.o      cfstring=Window in SDLMain.o      cfstring=m in SDLMain.o      cfstring=Minimize in SDLMain.o  "_OBJC_CLASS_$_NSAutoreleasePool", referenced from:      objc-class-ref-to-NSAutoreleasePool in SDLMain.o  "_CPSEnableForegroundOperation", referenced from:      _CustomApplicationMain in SDLMain.o  "_CPSGetCurrentProcess", referenced from:      _CustomApplicationMain in SDLMain.o  "_CFBundleCopyBundleURL", referenced from:      -[SDLMain setupWorkingDirectory:] in SDLMain.o  "_NSDeallocateMemoryPages", referenced from:      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o  "_OBJC_CLASS_$_NSApplication", referenced from:      l_OBJC_$_CATEGORY_NSApplication_$_SDLApplication in SDLMain.o      objc-class-ref-to-NSApplication in SDLMain.o  "_CPSSetFrontProcess", referenced from:      _CustomApplicationMain in SDLMain.o  "_OBJC_CLASS_$_NSString", referenced from:      l_OBJC_$_CATEGORY_NSString_$_ReplaceSubString in SDLMain.o      objc-class-ref-to-NSString in SDLMain.o  "_OBJC_CLASS_$_NSObject", referenced from:      _OBJC_CLASS_$_SDLMain in SDLMain.o  "_CFBundleGetInfoDictionary", referenced from:      _getApplicationName in SDLMain.o  "_CFRelease", referenced from:      -[SDLMain setupWorkingDirectory:] in SDLMain.o      -[SDLMain setupWorkingDirectory:] in SDLMain.o  "__objc_empty_vtable", referenced from:      _OBJC_METACLASS_$_SDLMain in SDLMain.o      _OBJC_CLASS_$_SDLMain in SDLMain.o  "_OBJC_CLASS_$_NSMenuItem", referenced from:      objc-class-ref-to-NSMenuItem in SDLMain.o  "_objc_msgSend", referenced from:      _getApplicationName in SDLMain.o      _getApplicationName in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setApplicationMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _setupWindowMenu in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      _CustomApplicationMain in SDLMain.o      -[SDLMain application:openFile:] in SDLMain.o      -[SDLMain applicationDidFinishLaunching:] in SDLMain.o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o      -[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o     (maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )  "_OBJC_METACLASS_$_NSObject", referenced from:      _OBJC_METACLASS_$_SDLMain in SDLMain.o      _OBJC_METACLASS_$_SDLMain in SDLMain.o  "_objc_msgSend_fixup", referenced from:      l_objc_msgSend_fixup_objectForKey_ in SDLMain.o      l_objc_msgSend_fixup_length in SDLMain.o      l_objc_msgSend_fixup_alloc in SDLMain.o      l_objc_msgSend_fixup_release in SDLMain.o     (maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )ld: symbol(s) not foundcollect2: ld returned 1 exit status123(4@40""_OBJC_CLASS_$_NSMenu", referenced from:316213827#19#43#0(6@0"316213827#0#0#0#0#0"0(13@37"Objc-class-ref-to-NSMenu in SDLMain.o316213827#62#44#0(6@0"316213827#0#0#0#0#0"0(4@38""__objc_empty_cache", referenced from:316213827#106#41#0(6@0"316213827#0#0#0#0#0"0(13@38"_OBJC_METACLASS_$_SDLMain in SDLMain.o316213827#147#45#0(6@0"316213827#0#0#0#0#0"0(13@34"_OBJC_CLASS_$_SDLMain in SDLMain.o316213827#192#41#0(6@0"316213827#0#0#0#0#0"0(4@42""_CFBundleGetMainBundle", referenced from:316213827#233#45#0(6@0"316213827#0#0#0#0#0"0(13@32"_getApplicationName in SDLMain.o316213827#278#39#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#317#53#0(6@0"316213827#0#0#0#0#0"0(4@53""_CFURLGetFileSystemRepresentation", referenced from:316213827#370#56#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#426#53#0(6@0"316213827#0#0#0#0#0"0(4@26""_NSApp", referenced from:316213827#479#29#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#508#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#547#39#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#586#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#622#36#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#658#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#700#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#742#42#0(6@0"316213827#0#0#0#0#0"0(4@47""_OBJC_CLASS_$_NSProcessInfo", referenced from:316213827#784#50#0(6@0"316213827#0#0#0#0#0"0(13@44"Objc-class-ref-to-NSProcessInfo in SDLMain.o316213827#834#51#0(6@0"316213827#0#0#0#0#0"0(4@61""_CFURLCreateCopyDeletingLastPathComponent", referenced from:316213827#885#64#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#949#53#0(6@0"316213827#0#0#0#0#0"0(4@42""_NSAllocateMemoryPages", referenced from:316213827#1002#45#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#1047#78#0(6@0"316213827#0#0#0#0#0"0(4@53""___CFConstantStringClassReference", referenced from:316213827#1125#56#0(6@0"316213827#0#0#0#0#0"0(13@34"Cfstring=CFBundleName in SDLMain.o316213827#1181#41#0(6@0"316213827#0#0#0#0#0"0(13@22"Cfstring= in SDLMain.o316213827#1222#29#0(6@0"316213827#0#0#0#0#0"0(13@28"Cfstring=About  in SDLMain.o316213827#1251#35#0(6@0"316213827#0#0#0#0#0"0(13@27"Cfstring=Hide  in SDLMain.o316213827#1286#34#0(6@0"316213827#0#0#0#0#0"0(13@23"Cfstring=h in SDLMain.o316213827#1320#30#0(6@0"316213827#0#0#0#0#0"0(13@33"Cfstring=Hide Others in SDLMain.o316213827#1350#40#0(6@0"316213827#0#0#0#0#0"0(13@30"Cfstring=Show All in SDLMain.o316213827#1390#37#0(6@0"316213827#0#0#0#0#0"0(13@27"Cfstring=Quit  in SDLMain.o316213827#1427#34#0(6@0"316213827#0#0#0#0#0"0(13@23"Cfstring=q in SDLMain.o316213827#1461#30#0(6@0"316213827#0#0#0#0#0"0(13@28"Cfstring=Window in SDLMain.o316213827#1491#35#0(6@0"316213827#0#0#0#0#0"0(13@23"Cfstring=m in SDLMain.o316213827#1526#30#0(6@0"316213827#0#0#0#0#0"0(13@30"Cfstring=Minimize in SDLMain.o316213827#1556#37#0(6@0"316213827#0#0#0#0#0"0(4@51""_OBJC_CLASS_$_NSAutoreleasePool", referenced from:316213827#1593#54#0(6@0"316213827#0#0#0#0#0"0(13@48"Objc-class-ref-to-NSAutoreleasePool in SDLMain.o316213827#1647#55#0(6@0"316213827#0#0#0#0#0"0(4@49""_CPSEnableForegroundOperation", referenced from:316213827#1702#52#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#1754#42#0(6@0"316213827#0#0#0#0#0"0(4@41""_CPSGetCurrentProcess", referenced from:316213827#1796#44#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#1840#42#0(6@0"316213827#0#0#0#0#0"0(4@42""_CFBundleCopyBundleURL", referenced from:316213827#1882#45#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#1927#53#0(6@0"316213827#0#0#0#0#0"0(4@44""_NSDeallocateMemoryPages", referenced from:316213827#1980#47#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#2027#78#0(6@0"316213827#0#0#0#0#0"0(4@47""_OBJC_CLASS_$_NSApplication", referenced from:316213827#2105#50#0(6@0"316213827#0#0#0#0#0"0(13@61"L_OBJC_$_CATEGORY_NSApplication_$_SDLApplication in SDLMain.o316213827#2155#68#0(6@0"316213827#0#0#0#0#0"0(13@44"Objc-class-ref-to-NSApplication in SDLMain.o316213827#2223#51#0(6@0"316213827#0#0#0#0#0"0(4@39""_CPSSetFrontProcess", referenced from:316213827#2274#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#2316#42#0(6@0"316213827#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSString", referenced from:316213827#2358#45#0(6@0"316213827#0#0#0#0#0"0(13@58"L_OBJC_$_CATEGORY_NSString_$_ReplaceSubString in SDLMain.o316213827#2403#65#0(6@0"316213827#0#0#0#0#0"0(13@39"Objc-class-ref-to-NSString in SDLMain.o316213827#2468#46#0(6@0"316213827#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSObject", referenced from:316213827#2514#45#0(6@0"316213827#0#0#0#0#0"0(13@34"_OBJC_CLASS_$_SDLMain in SDLMain.o316213827#2559#41#0(6@0"316213827#0#0#0#0#0"0(4@46""_CFBundleGetInfoDictionary", referenced from:316213827#2600#49#0(6@0"316213827#0#0#0#0#0"0(13@32"_getApplicationName in SDLMain.o316213827#2649#39#0(6@0"316213827#0#0#0#0#0"0(4@30""_CFRelease", referenced from:316213827#2688#33#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#2721#53#0(6@0"316213827#0#0#0#0#0"0(13@46"-[SDLMain setupWorkingDirectory:] in SDLMain.o316213827#2774#53#0(6@0"316213827#0#0#0#0#0"0(4@39""__objc_empty_vtable", referenced from:316213827#2827#42#0(6@0"316213827#0#0#0#0#0"0(13@38"_OBJC_METACLASS_$_SDLMain in SDLMain.o316213827#2869#45#0(6@0"316213827#0#0#0#0#0"0(13@34"_OBJC_CLASS_$_SDLMain in SDLMain.o316213827#2914#41#0(6@0"316213827#0#0#0#0#0"0(4@44""_OBJC_CLASS_$_NSMenuItem", referenced from:316213827#2955#47#0(6@0"316213827#0#0#0#0#0"0(13@41"Objc-class-ref-to-NSMenuItem in SDLMain.o316213827#3002#48#0(6@0"316213827#0#0#0#0#0"0(4@33""_objc_msgSend", referenced from:316213827#3050#36#0(6@0"316213827#0#0#0#0#0"0(13@32"_getApplicationName in SDLMain.o316213827#3086#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_getApplicationName in SDLMain.o316213827#3125#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3164#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3203#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3242#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3281#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3320#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3359#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3398#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3437#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3476#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3515#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3554#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3593#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3632#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3671#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3710#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3749#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3788#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3827#39#0(6@0"316213827#0#0#0#0#0"0(13@32"_setApplicationMenu in SDLMain.o316213827#3866#39#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#3905#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#3941#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#3977#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#4013#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#4049#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#4085#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#4121#36#0(6@0"316213827#0#0#0#0#0"0(13@29"_setupWindowMenu in SDLMain.o316213827#4157#36#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4193#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4235#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4277#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4319#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4361#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4403#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4445#42#0(6@0"316213827#0#0#0#0#0"0(13@35"_CustomApplicationMain in SDLMain.o316213827#4487#42#0(6@0"316213827#0#0#0#0#0"0(13@45"-[SDLMain application:openFile:] in SDLMain.o316213827#4529#52#0(6@0"316213827#0#0#0#0#0"0(13@54"-[SDLMain applicationDidFinishLaunching:] in SDLMain.o316213827#4581#61#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#4642#78#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#4720#78#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#4798#78#0(6@0"316213827#0#0#0#0#0"0(13@71"-[NSString(ReplaceSubString) stringByReplacingRange:with:] in SDLMain.o316213827#4876#78#0(6@0"316213827#0#0#0#0#0"0(13@143"(maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )316213827#4954#149#0(6@0"316213827#0#0#0#0#0"0(4@46""_OBJC_METACLASS_$_NSObject", referenced from:316213827#5103#49#0(6@0"316213827#0#0#0#0#0"0(13@38"_OBJC_METACLASS_$_SDLMain in SDLMain.o316213827#5152#45#0(6@0"316213827#0#0#0#0#0"0(13@38"_OBJC_METACLASS_$_SDLMain in SDLMain.o316213827#5197#45#0(6@0"316213827#0#0#0#0#0"0(4@39""_objc_msgSend_fixup", referenced from:316213827#5242#42#0(6@0"316213827#0#0#0#0#0"0(13@47"L_objc_msgSend_fixup_objectForKey_ in SDLMain.o316213827#5284#54#0(6@0"316213827#0#0#0#0#0"0(13@40"L_objc_msgSend_fixup_length in SDLMain.o316213827#5338#47#0(6@0"316213827#0#0#0#0#0"0(13@39"L_objc_msgSend_fixup_alloc in SDLMain.o316213827#5385#46#0(6@0"316213827#0#0#0#0#0"0(13@41"L_objc_msgSend_fixup_release in SDLMain.o316213827#5431#48#0(6@0"316213827#0#0#0#0#0"0(13@143"(maybe you meant: l_objc_msgSend_fixup_objectForKey_, l_objc_msgSend_fixup_alloc , l_objc_msgSend_fixup_release , l_objc_msgSend_fixup_length )316213827#5479#149#0(6@0"316213827#0#0#0#0#0"0(13@19"Symbol(s) not found316213827#5628#24#0(6@0"316213827#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status316213827#5652#36#0(6@0"316213827#0#0#0#0#0"0(0#0#0"8607905952#543"    cd /Users/Matt/Code/CS248/opengl-basics/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -F/Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug -filelist /Users/Matt/Code/CS248/opengl-basics/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/xcode.LinkFileList -mmacosx-version-min=10.6 -framework OpenGL -framework SDL -o /Users/Matt/Code/CS248/opengl-basics/xcode/build/Debug/xcode1#
+
