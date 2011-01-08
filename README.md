@@ -20,7 +20,7 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 
 1. [Get the SDL disk image and open it](http://www.libsdl.org/release/SDL-1.2.14.dmg)
 2. Copy SDL.framework to /Library/Frameworks
-3. Open the XCode project and build
+3. Open the XCode project in "xcode" and run
 
 ### Windows
 
