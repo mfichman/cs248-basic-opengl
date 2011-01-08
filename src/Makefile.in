@@ -45,7 +45,7 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_main_OBJECTS = main.$(OBJEXT)
+am_main_OBJECTS = main.$(OBJEXT) SDLMain.$(OBJEXT)
 main_OBJECTS = $(am_main_OBJECTS)
 main_LDADD = $(LDADD)
 DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)
@@ -56,6 +56,11 @@ COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
 	$(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 CCLD = $(CC)
 LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
+OBJCCOMPILE = $(OBJC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \
+	$(AM_CPPFLAGS) $(CPPFLAGS) $(AM_OBJCFLAGS) $(OBJCFLAGS)
+OBJCLD = $(OBJC)
+OBJCLINK = $(OBJCLD) $(AM_OBJCFLAGS) $(OBJCFLAGS) $(AM_LDFLAGS) \
+	$(LDFLAGS) -o $@
 SOURCES = $(main_SOURCES)
 DIST_SOURCES = $(main_SOURCES)
 ETAGS = etags
@@ -151,11 +156,11 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-main_SOURCES = main.c
+main_SOURCES = main.c SDLMain.m
 all: all-am
 
 .SUFFIXES:
-.SUFFIXES: .c .o .obj
+.SUFFIXES: .c .m .o .obj
 $(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
 	@for dep in $?; do \
 	  case '$(am__configure_deps)' in \
@@ -225,7 +230,7 @@ clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
 main$(EXEEXT): $(main_OBJECTS) $(main_DEPENDENCIES) 
 	@rm -f main$(EXEEXT)
-	$(LINK) $(main_OBJECTS) $(main_LDADD) $(LIBS)
+	$(OBJCLINK) $(main_OBJECTS) $(main_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -233,6 +238,7 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/SDLMain.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/main.Po@am__quote@
 
 .c.o:
@@ -248,6 +254,20 @@ distclean-compile:
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	source='$<' object='$@' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCC_FALSE@	$(COMPILE) -c `$(CYGPATH_W) '$<'`
+
+.m.o:
+@am__fastdepOBJC_TRUE@	$(OBJCCOMPILE) -MT $@ -MD -MP -MF $(DEPDIR)/$*.Tpo -c -o $@ $<
+@am__fastdepOBJC_TRUE@	$(am__mv) $(DEPDIR)/$*.Tpo $(DEPDIR)/$*.Po
+@AMDEP_TRUE@@am__fastdepOBJC_FALSE@	source='$<' object='$@' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepOBJC_FALSE@	DEPDIR=$(DEPDIR) $(OBJCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepOBJC_FALSE@	$(OBJCCOMPILE) -c -o $@ $<
+
+.m.obj:
+@am__fastdepOBJC_TRUE@	$(OBJCCOMPILE) -MT $@ -MD -MP -MF $(DEPDIR)/$*.Tpo -c -o $@ `$(CYGPATH_W) '$<'`
+@am__fastdepOBJC_TRUE@	$(am__mv) $(DEPDIR)/$*.Tpo $(DEPDIR)/$*.Po
+@AMDEP_TRUE@@am__fastdepOBJC_FALSE@	source='$<' object='$@' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepOBJC_FALSE@	DEPDIR=$(DEPDIR) $(OBJCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepOBJC_FALSE@	$(OBJCCOMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
 
 ID: $(HEADERS) $(SOURCES) $(LISP) $(TAGS_FILES)
 	list='$(SOURCES) $(HEADERS) $(LISP) $(TAGS_FILES)'; \
