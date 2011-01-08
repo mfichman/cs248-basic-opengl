@@ -13,18 +13,14 @@ To get the demo to work, you have to install the SDL library on your machine.  T
 
 1. sudo apt-get install libsdl-dev
 2. cd [demo-folder]
-3. ./configure
 4. make
-5. src/main
+5. ./main
 
 ### OS X
 
 1. [Get the SDL disk image and open it](http://www.libsdl.org/release/SDL-1.2.14.dmg)
 2. Copy SDL.framework to /Library/Frameworks
-3. cd [demo-folder]
-4. ./configure
-5. make
-6. src/main
+3. Open the XCode project and build
 
 ### Windows
 
