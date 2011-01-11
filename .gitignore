@@ -1,2 +1,5 @@
 *.o
+*.ncb
+*~
+vs2008/Debug/*
 main

@@ -65,11 +65,17 @@ void render_frame() {
     /* Draw the cube with some rotation on the right side */
     glPushMatrix();
 
+	/* EDIT: Timing control for the animation! */
+	static unsigned previous_time = 0;
+	unsigned current_time = SDL_GetTicks();
+	unsigned elapsed_time = current_time - previous_time;
+	previous_time = current_time;
+	
     /* Make the cube rotate around a little */
     static float angle1 = 0.0f;
     static float angle2 = 0.0f;
-    angle1 += 0.1f;
-    angle2 += 0.05f; 
+    angle1 += 0.1f * elapsed_time;
+    angle2 += 0.05f * elapsed_time; 
 
     glTranslatef(2, 0, 0);
     glRotatef(angle1, 0, 1, 0);
@@ -144,6 +150,7 @@ void init_sdl() {
     SDL_GL_SetAttribute(SDL_GL_BLUE_SIZE, 8);
     SDL_GL_SetAttribute(SDL_GL_ALPHA_SIZE, 8);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_WM_SetCaption(WINDOW_TITLE, NULL);
 
     int mode_flags = SDL_OPENGL; /* | SDL_FULLSCREEN */
