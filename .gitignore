@@ -1,5 +1,6 @@
 *.o
 *.ncb
+*.suo
 *~
 vs2008/Debug/*
 main
